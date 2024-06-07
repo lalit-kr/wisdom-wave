@@ -1,0 +1,20 @@
+i{
+  color: #ff4081;
+}
+p{
+  color: #ff4081 !important;
+}
+input{
+  color: #fff !important;
+}
+.custom-tooltip {
+  background-color: #f8f9fa !important;
+  color: #f00 !important;              
+  border: 1px solid #ccc !important;  
+  font-weight: 500; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+  left: 0;
+}
+#passwordTooltip{
+  width: 20vw;
+}
