@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { React, useState } from "react";
 import { Tooltip } from "react-tooltip";
 import 'react-tooltip/dist/react-tooltip.css'
 import "./register.css";
@@ -102,7 +102,7 @@ const Login = () => {
                         </div>
                       </div>
                       <div className="d-flex flex-row align-items-center mb-4">
-                        <i className="fas fa-signature fa-lg me-3 fa-fw"></i>
+                        <i className="fas fa-monument fa-lg me-3 fa-fw"></i>
                         <div className="form-outline flex-fill mb-0">
                           <input
                             type="text"
@@ -219,22 +219,6 @@ const Login = () => {
                         </div>
                       </div>
 
-                      <div className="form-check d-flex justify-content-center mb-5">
-                        <input
-                          className="form-check-input me-2"
-                          type="checkbox"
-                          value=""
-                          id="form2Example3c"
-                        />
-                        <label
-                          className="form-check-label"
-                          htmlFor="form2Example3"
-                        >
-                          I agree all statements in{" "}
-                          <a href="#!">Terms of service</a>
-                        </label>
-                      </div>
-
                       <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <input
                           type="submit"
@@ -243,6 +227,12 @@ const Login = () => {
                           data-mdb-ripple-init
                           className="btn btn-primary btn-lg"
                         />
+                        <a
+                          href="/login"
+                          data-mdb-button-init
+                          data-mdb-ripple-init
+                          className="btn btn-secondary btn-lg"
+                        >Login</a>
                       </div>
                     </form>
                   </div>
